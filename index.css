@@ -1,0 +1,31 @@
+#results{
+	margin-top: 20px;
+	text-align: center;
+	display: block;
+}
+
+.more {
+	display:block;
+	margin-bottom: 10px;
+}
+
+.title {
+	font-size: 20px;
+}
+
+a {
+	display: block;
+	margin-bottom: 10px;
+}
+
+img {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+fieldset {
+	border: none;
+	text-align: center;
+}

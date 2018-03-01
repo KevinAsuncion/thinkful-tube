@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form id="search-form">
+      <fieldset>
+        <legend>Thinkful Tube</legend>
+        <label>Enter a Search Term
+            <input type="text" id="search-term" name="search-term" required/> 
+        </label>
+        <button id="submit-btn">Submit</button>
+      </fieldset>
+    </form>
+    <main role="main" id="results" aria-live="assertive" hidden>
+    </main>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
